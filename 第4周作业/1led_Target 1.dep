@@ -1,0 +1,40 @@
+Dependencies for Project '1led', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\startup_stm32f10x_md.s)(0x63463D92)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I"D:\keil 5 Ç¶ÈëÊ½1\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil 5 Ç¶ÈëÊ½\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 531" --pd "STM32F10X_MD SETA 1"--list ..\startup_stm32f10x_md.lst --xref -o ..\startup_stm32f10x_md.o --depend ..\startup_stm32f10x_md.d)
+F (.\test.c)(0x634658CC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM-¼Ä´æÆ÷°æ\sys -I ..\SYSTEM-¼Ä´æÆ÷°æ\delay -I ..\SYSTEM-¼Ä´æÆ÷°æ\usart -I ..\HARDWARE-I"D:\keil 5 Ç¶ÈëÊ½1\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil 5 Ç¶ÈëÊ½\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\test.o --omf_browse ..\test.crf --depend ..\test.d)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\sys.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\stm32f10x.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\core_cm3.h)(0x00000000)
+I (D:\keil 5 åµŒå…¥å¼\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\system_stm32f10x.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\delay\delay.h)(0x00000000)
+I (led.h)(0x6346592B)
+F (..\SYSTEM-¼Ä´æÆ÷°æ\delay\delay.c)(0x63463D92)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM-¼Ä´æÆ÷°æ\sys -I ..\SYSTEM-¼Ä´æÆ÷°æ\delay -I ..\SYSTEM-¼Ä´æÆ÷°æ\usart -I ..\HARDWARE-I"D:\keil 5 Ç¶ÈëÊ½1\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil 5 Ç¶ÈëÊ½\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\delay.o --omf_browse ..\delay.crf --depend ..\delay.d)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\delay\delay.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\sys.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\stm32f10x.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\core_cm3.h)(0x00000000)
+I (D:\keil 5 åµŒå…¥å¼\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\system_stm32f10x.h)(0x00000000)
+F (..\SYSTEM-¼Ä´æÆ÷°æ\sys\sys.c)(0x63463D97)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM-¼Ä´æÆ÷°æ\sys -I ..\SYSTEM-¼Ä´æÆ÷°æ\delay -I ..\SYSTEM-¼Ä´æÆ÷°æ\usart -I ..\HARDWARE-I"D:\keil 5 Ç¶ÈëÊ½1\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil 5 Ç¶ÈëÊ½\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\sys.o --omf_browse ..\sys.crf --depend ..\sys.d)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\sys.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\stm32f10x.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\core_cm3.h)(0x00000000)
+I (D:\keil 5 åµŒå…¥å¼\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\system_stm32f10x.h)(0x00000000)
+F (..\SYSTEM-¼Ä´æÆ÷°æ\usart\usart.c)(0x63463D98)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM-¼Ä´æÆ÷°æ\sys -I ..\SYSTEM-¼Ä´æÆ÷°æ\delay -I ..\SYSTEM-¼Ä´æÆ÷°æ\usart -I ..\HARDWARE-I"D:\keil 5 Ç¶ÈëÊ½1\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil 5 Ç¶ÈëÊ½\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\usart.o --omf_browse ..\usart.crf --depend ..\usart.d)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\usart\usart.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\sys.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\stm32f10x.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\core_cm3.h)(0x00000000)
+I (D:\keil 5 åµŒå…¥å¼\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\system_stm32f10x.h)(0x00000000)
+I (D:\keil 5 åµŒå…¥å¼\ARM\ARMCC\include\stdio.h)(0x00000000)
+F (.\led.c)(0x634658C9)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM-¼Ä´æÆ÷°æ\sys -I ..\SYSTEM-¼Ä´æÆ÷°æ\delay -I ..\SYSTEM-¼Ä´æÆ÷°æ\usart -I ..\HARDWARE-I"D:\keil 5 Ç¶ÈëÊ½1\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil 5 Ç¶ÈëÊ½\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\led.o --omf_browse ..\led.crf --depend ..\led.d)
+I (led.h)(0x6346592B)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\sys.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\stm32f10x.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\core_cm3.h)(0x00000000)
+I (D:\keil 5 åµŒå…¥å¼\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (..\SYSTEM-å¯„å­˜å™¨ç‰ˆ\sys\system_stm32f10x.h)(0x00000000)
+F (.\led.h)(0x6346592B)()
